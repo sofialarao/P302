@@ -1,0 +1,53 @@
+{
+  "patient": {
+    "name": "Elena Vale",
+    "caregiver": "Rosa Vale",
+    "diagnosis": "Early-stage Alzheimer's",
+    "diagnosisDate": "2025-02-14",
+    "lastUpdated": "Monday, December 8, 2025"
+  },
+  "kpis": {
+    "observations": 18,
+    "observationsNeedingAction": 3,
+    "independenceScore": 72,
+    "independenceChange": 8
+  },
+  "dailyEvents": [
+    { "label": "Morning routine", "time": "8:10 AM", "status": "complete", "detail": "Completed with one reminder" },
+    { "label": "Breakfast", "time": "8:42 AM", "status": "complete", "detail": "Finished full meal" },
+    { "label": "Medication", "time": "9:15 AM", "status": "attention", "detail": "Reminder needed" },
+    { "label": "Walk outside", "time": "11:30 AM", "status": "complete", "detail": "22 minutes with Rosa" },
+    { "label": "Lunch", "time": "12:40 PM", "status": "upcoming", "detail": "Planned for today" }
+  ],
+  "patterns": [
+    { "id": "medication", "title": "Medication reminders", "description": "Often needs a prompt before the morning dose.", "count": 9, "trend": "up", "severity": "attention", "analysis": "Keep the medication visible beside breakfast and use one calm, specific prompt. Elena responds best when the reminder is paired with her morning routine." },
+    { "id": "sleep", "title": "Sleep interruptions", "description": "Wakes once between 2:00 and 3:00 AM.", "count": 6, "trend": "steady", "severity": "monitor", "analysis": "A consistent wind-down routine may help. Note whether the interruption follows late afternoon naps or evening fluids before changing the routine." },
+    { "id": "orientation", "title": "Orientation wins", "description": "Recognizes the day and place after breakfast.", "count": 11, "trend": "up", "severity": "positive", "analysis": "Breakfast is a strong orientation anchor. Keep the calendar visible and continue naming the day, weather, and next activity together." }
+  ],
+  "weeklyAnalysis": {
+    "labels": ["Sep 22", "Sep 29", "Oct 6", "Oct 13", "Oct 20", "Oct 27", "Nov 3", "Nov 10", "Nov 17", "Nov 24", "Dec 1", "Dec 8"],
+    "independence": [58, 61, 59, 64, 63, 66, 68, 67, 70, 69, 71, 72],
+    "orientation": [64, 65, 62, 66, 68, 67, 70, 71, 69, 73, 72, 75],
+    "routine": [52, 55, 56, 54, 58, 60, 59, 63, 61, 65, 66, 68]
+  },
+  "taskAnalysis": [
+    { "label": "Getting dressed", "duration": "18 min", "baseline": "24 min", "progress": 75, "note": "More independent this month" },
+    { "label": "Preparing breakfast", "duration": "26 min", "baseline": "30 min", "progress": 86, "note": "Stable with setup" },
+    { "label": "Medication routine", "duration": "8 min", "baseline": "5 min", "progress": 42, "note": "Needs a gentle reminder" },
+    { "label": "Evening routine", "duration": "31 min", "baseline": "22 min", "progress": 58, "note": "Allow extra transition time" }
+  ],
+  "monthly": [
+    { "month": "Jan", "score": 84, "high": "Enjoyed music afternoons", "low": "Two missed appointments" },
+    { "month": "Feb", "score": 81, "high": "Started walking routine", "low": "Restless evenings" },
+    { "month": "Mar", "score": 78, "high": "Recognized family photos", "low": "More medication prompts" },
+    { "month": "Apr", "score": 76, "high": "Garden visits lifted mood", "low": "Interrupted sleep" },
+    { "month": "May", "score": 74, "high": "Independent at breakfast", "low": "Needed help dressing" },
+    { "month": "Jun", "score": 71, "high": "Enjoyed new recipes", "low": "Missed one dose" },
+    { "month": "Jul", "score": 69, "high": "Strong afternoon walks", "low": "Harder transitions" },
+    { "month": "Aug", "score": 67, "high": "Good family visits", "low": "Frequent repetition" },
+    { "month": "Sep", "score": 65, "high": "Calm morning routine", "low": "Sleep interruptions" },
+    { "month": "Oct", "score": 67, "high": "More orientation wins", "low": "Evening fatigue" },
+    { "month": "Nov", "score": 70, "high": "Consistent walks", "low": "Medication reminders" },
+    { "month": "Dec", "score": 72, "high": "Breakfast independence", "low": "One restless night" }
+  ]
+}
